@@ -1,7 +1,7 @@
 # ==========
 # fv.R
 #
-# Code to spupport article at www.actuarialdatascience.com 
+# Code to support article on www.actuarialdatascience.com 
 # (Should retirement planning start at birth)
 #
 # Objective: calculating future value for any investment stream.
