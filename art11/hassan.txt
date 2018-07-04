@@ -1,0 +1,2 @@
+name,birthdate,country
+Hasan,04.07.2017,Turkey

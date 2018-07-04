@@ -1,0 +1,2 @@
+name,birthdate,country
+Magnus,04072017,Norway

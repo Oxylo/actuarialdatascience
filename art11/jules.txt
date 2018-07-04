@@ -1,0 +1,2 @@
+name,birthdate,country
+James,4 Juillet 2017 à 11:45,France
