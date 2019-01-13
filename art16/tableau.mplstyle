@@ -1,0 +1,40 @@
+# Tableau stylesheet 
+# www.actuarialdatascienc.com
+
+#### AXES
+axes.prop_cycle: cycler('color', ['tab:blue', 'tab:orange','tab:green','tab:red', 'tab:purple', 'tab:brown', 'tab:pink', 'tab:gray', 'tab:olive', 'tab:cyan'])
+axes.labelcolor    : 666666  # grey  
+axes.labelsize     : 8       # fontsize of the x any y labels
+axes.edgecolor     : EAEAEA  # light grey
+axes.spines.right  : False   # do not show right spine
+axes.spines.top    : False   # do not show top spine
+axes.grid          : True    # display grid 
+axes.grid.axis     : both    # grid should apply to both axes
+axes.grid.which    : major   # gridlines at major ticks
+axes.facecolor     : FCFCFC  # broken white inside box
+
+
+#### TEXT
+text.color         : 585858  # dark grey for title
+
+
+#### TICKS
+xtick.color        : 666666  # grey for both xticks & xticklablels
+xtick.major.size   : 0       # remove ticks x-axis
+xtick.labelsize    : 7       # fontsize of the tick labels
+ytick.color        : 666666  # grey for both yticks & yticklablels
+ytick.major.size   : 0       # remove ticks y-axis
+ytick.labelsize    : 7       # fontsize of the tick labels
+
+
+
+#### GRIDS
+grid.color         : EAEAEA  # light grey
+grid.linestyle     : :       # dotted grid line
+grid.linewidth     : 0.8     # in points
+grid.alpha         : 1.0     # transparency, between 0.0 and 1.0
+
+
+#### FIGURE
+figure.facecolor   : FCFCFC  # broken white outside box
+
