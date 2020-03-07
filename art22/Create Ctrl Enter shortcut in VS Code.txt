@@ -1,0 +1,41 @@
+###############################
+# 1. Install extension "macros" in Visual Code
+#
+# Hit View on top menu
+# Search for extension named "macros" (by geddski)
+# Install "macros" extension
+#
+###############################
+
+
+###############################
+# 2. Add code below to keybindings.json
+#
+# Hit <Crtl> + <Shift> + <P>
+# Enter in search bar: JSON
+# Select Open keyboard shortcuts
+#
+###############################
+
+{
+        "key": "ctrl+enter",
+        "command": "macros.pythonExecSelectionAndCursorDown",
+        "when": "editorTextFocus && editorLangId == 'python'"
+    }
+
+
+###############################
+# 3. Add code below to settings.json
+#
+# Hit <Crtl> + <Shift> + <P>
+# Enter in search bar: JSON
+# Select Open settings 
+#
+###############################
+
+"macros": {  // Note: this requires macros extension by publisher:"geddski" 
+        "pythonExecSelectionAndCursorDown": [
+            "python.execSelectionInTerminal", 
+            "cursorDown" 
+        ]
+    }

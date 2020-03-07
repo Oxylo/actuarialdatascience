@@ -32,9 +32,8 @@ ggplot(data=df, mapping=aes(x=x, y=y)) +
 #
 # Ex. 3: Presenting forecasts in the wonderful world of the tidyverse 
 #
-library("tidyverse")
-
-df <- read.csv("/home/pieter/projects/website-ads-scripts/art21/forecasts.csv")
+library("tidyverse")                                                                                               
+df <- read.csv("forecasts.csv")
 
 # Plot 1: too basic
 
